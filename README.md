@@ -5,7 +5,7 @@
 
 <!-- Typing animation -->
 <a href="https://github.com/Eshwar02/leaaarrn-it">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=6C63FF&center=true&vCenter=true&width=700&lines=Press+a+shortcut.+See+what+it+does.+Instantly.;Ctrl%2BShift%2BN+won't+open+incognito+here+%F0%9F%94%92;260%2B+shortcuts+across+18+apps;Built+with+Next.js+%2B+Supabase+%E2%9A%A1" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=6C63FF&center=true&vCenter=true&width=700&lines=Press+a+shortcut.+See+what+it+does.+Instantly.;Ctrl%2BShift%2BN+won't+open+incognito+here+%F0%9F%94%92;6%2C000%2B+shortcut+records+across+24+app+buckets;Built+with+Next.js+%2B+Supabase+%E2%9A%A1" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -20,8 +20,8 @@
 
 <img src="https://img.shields.io/github/last-commit/Eshwar02/leaaarrn-it?style=flat-square&color=6C63FF" />
 <img src="https://img.shields.io/github/languages/top/Eshwar02/leaaarrn-it?style=flat-square&color=F97316" />
-<img src="https://img.shields.io/badge/shortcuts-260%2B-22C55E?style=flat-square" />
-<img src="https://img.shields.io/badge/apps-18-EF4444?style=flat-square" />
+<img src="https://img.shields.io/badge/shortcut_records-6%2C000%2B-22C55E?style=flat-square" />
+<img src="https://img.shields.io/badge/app_buckets-24-EF4444?style=flat-square" />
 
 </div>
 
@@ -113,10 +113,8 @@ cp .env.local.example .env.local
 
 # 3. Set up the database (Supabase SQL Editor)
 #    → run supabase/schema.sql
-#    → run supabase/seed.sql
-#    → run supabase/seed_more_apps.sql   (PowerPoint, Slack, Photoshop, Notion, Gmail)
-#    → run supabase/widen_apps.sql       (Edge, Blender, Google Docs, Universal)
-#    → run supabase/seed_from_xlsx.sql   (imported from dataas/*.xlsx)
+#    → run supabase/widen_apps.sql       (adds all CSV app buckets)
+#    → npm run seed                      (imports dataas/ai_shortcut_knowledgebase_6000plus.csv)
 
 # 4. Fire it up 🔥
 npm run dev
@@ -140,7 +138,7 @@ leaaarrn-it/
 │   ├── apps.ts              # 📚 app catalog (OS / browsers / tools)
 │   ├── keys.ts              # 🔧 key normalization magic
 │   └── supabase/            # 🟢 db clients
-└── supabase/                # 🗃️ schema + seed SQL (200+ shortcuts)
+└── supabase/                # 🗃️ schema + migrations for shortcut data
 ```
 
 ## 🎯 Apps Covered
@@ -148,12 +146,15 @@ leaaarrn-it/
 <div align="center">
 
 ✳️ Universal &nbsp;•&nbsp; 🪟 Windows &nbsp;•&nbsp; 🍎 macOS &nbsp;•&nbsp; 🐧 Linux
+&nbsp;•&nbsp; 🖥️ GNOME &nbsp;•&nbsp; 🖥️ KDE Plasma
 <br/>
 🌐 Chrome &nbsp;•&nbsp; 🦊 Firefox &nbsp;•&nbsp; 🧭 Edge
 <br/>
-💻 VS Code &nbsp;•&nbsp; 📊 Excel &nbsp;•&nbsp; 📝 Word &nbsp;•&nbsp; 📄 Google Docs &nbsp;•&nbsp; 📽️ PowerPoint
+💻 VS Code &nbsp;•&nbsp; 📊 Excel &nbsp;•&nbsp; 📝 Word &nbsp;•&nbsp; 📄 Google Docs &nbsp;•&nbsp; 📈 Google Sheets &nbsp;•&nbsp; 📽️ PowerPoint
 <br/>
 🎨 Figma &nbsp;•&nbsp; 🖼️ Photoshop &nbsp;•&nbsp; 🧊 Blender &nbsp;•&nbsp; 🗒️ Notion &nbsp;•&nbsp; 💬 Slack &nbsp;•&nbsp; ✉️ Gmail
+<br/>
+⌨️ Bash &nbsp;•&nbsp; ⌨️ PowerShell &nbsp;•&nbsp; 🔧 Git
 
 </div>
 
