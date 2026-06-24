@@ -22,7 +22,8 @@ create table if not exists public.shortcuts (
                 check (app in
                   ('windows','macos','linux','chrome','firefox',
                    'vscode','excel','word','figma',
-                   'powerpoint','slack','photoshop','notion','gmail')),
+                   'powerpoint','slack','photoshop','notion','gmail',
+                   'edge','blender','googledocs','general')),
   created_at  timestamptz not null default now(),
   -- Required by the upsert in scripts/seed.ts (onConflict: "name,app")
   -- and by the ON CONFLICT clause in seed.sql.

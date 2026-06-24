@@ -16,6 +16,10 @@ export interface AppGroup {
 
 export const APP_GROUPS: AppGroup[] = [
   {
+    title: "Everywhere",
+    apps: [{ id: "general", label: "Universal", icon: "✳️" }],
+  },
+  {
     title: "Operating Systems",
     apps: [
       { id: "windows", label: "Windows", icon: "🪟" },
@@ -28,6 +32,7 @@ export const APP_GROUPS: AppGroup[] = [
     apps: [
       { id: "chrome", label: "Chrome", icon: "🌐" },
       { id: "firefox", label: "Firefox", icon: "🦊" },
+      { id: "edge", label: "Edge", icon: "🧭" },
     ],
   },
   {
@@ -36,9 +41,11 @@ export const APP_GROUPS: AppGroup[] = [
       { id: "vscode", label: "VS Code", icon: "💻" },
       { id: "excel", label: "Excel", icon: "📊" },
       { id: "word", label: "Word", icon: "📝" },
+      { id: "googledocs", label: "Google Docs", icon: "📄" },
       { id: "powerpoint", label: "PowerPoint", icon: "📽️" },
       { id: "figma", label: "Figma", icon: "🎨" },
       { id: "photoshop", label: "Photoshop", icon: "🖼️" },
+      { id: "blender", label: "Blender", icon: "🧊" },
       { id: "notion", label: "Notion", icon: "🗒️" },
       { id: "slack", label: "Slack", icon: "💬" },
       { id: "gmail", label: "Gmail", icon: "✉️" },

@@ -14,7 +14,11 @@ export type AppId =
   | "slack"
   | "photoshop"
   | "notion"
-  | "gmail";
+  | "gmail"
+  | "edge"
+  | "blender"
+  | "googledocs"
+  | "general";
 
 export type Category =
   | "navigation"
