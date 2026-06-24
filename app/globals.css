@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --paper: #f8f8f6;
+  --ink: #0d0d0d;
+  --accent: #6c63ff;
+  --ok: #22c55e;
+  --err: #ef4444;
+  --streak: #f97316;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+/* ---- KeyCaptureBox animations ---------------------------------------- */
+
+/* A key badge popping in as it is pressed. */
+@keyframes key-pop {
+  0% {
+    transform: scale(0.6) translateY(6px);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.12) translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-key-pop {
+  animation: key-pop 220ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Soft pulsing ring while the box is armed and listening. */
+@keyframes capture-glow {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(108, 99, 255, 0);
+  }
+  50% {
+    box-shadow: 0 0 0 6px rgba(108, 99, 255, 0.12);
+  }
+}
+
+.animate-capture-glow {
+  animation: capture-glow 2.4s ease-in-out infinite;
+}
+
+/* A quick flash on the box edge each time a combo fires. */
+@keyframes capture-flash {
+  0% {
+    box-shadow: 0 0 0 0 rgba(108, 99, 255, 0.55);
+  }
+  100% {
+    box-shadow: 0 0 0 18px rgba(108, 99, 255, 0);
+  }
+}
+
+.animate-capture-flash {
+  animation: capture-flash 420ms ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-key-pop,
+  .animate-capture-glow,
+  .animate-capture-flash {
+    animation: none;
+  }
+}

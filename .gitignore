@@ -1,0 +1,14 @@
+/node_modules
+/.next
+/out
+/build
+.env*.local
+.env
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
+
+# Local tooling (not part of the app)
+/.agents
+/.mcp.json
+skills-lock.json
