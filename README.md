@@ -5,7 +5,7 @@
 
 <!-- Typing animation -->
 <a href="https://github.com/Eshwar02/leaaarrn-it">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=6C63FF&center=true&vCenter=true&width=700&lines=Press+a+shortcut.+See+what+it+does.+Instantly.;Ctrl%2BShift%2BN+won't+open+incognito+here+%F0%9F%94%92;200%2B+shortcuts+across+14+apps;Built+with+Next.js+%2B+Supabase+%E2%9A%A1" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=6C63FF&center=true&vCenter=true&width=700&lines=Press+a+shortcut.+See+what+it+does.+Instantly.;Ctrl%2BShift%2BN+won't+open+incognito+here+%F0%9F%94%92;260%2B+shortcuts+across+18+apps;Built+with+Next.js+%2B+Supabase+%E2%9A%A1" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -20,8 +20,8 @@
 
 <img src="https://img.shields.io/github/last-commit/Eshwar02/leaaarrn-it?style=flat-square&color=6C63FF" />
 <img src="https://img.shields.io/github/languages/top/Eshwar02/leaaarrn-it?style=flat-square&color=F97316" />
-<img src="https://img.shields.io/badge/shortcuts-200%2B-22C55E?style=flat-square" />
-<img src="https://img.shields.io/badge/apps-14-EF4444?style=flat-square" />
+<img src="https://img.shields.io/badge/shortcuts-260%2B-22C55E?style=flat-square" />
+<img src="https://img.shields.io/badge/apps-18-EF4444?style=flat-square" />
 
 </div>
 
@@ -115,6 +115,8 @@ cp .env.local.example .env.local
 #    → run supabase/schema.sql
 #    → run supabase/seed.sql
 #    → run supabase/seed_more_apps.sql   (PowerPoint, Slack, Photoshop, Notion, Gmail)
+#    → run supabase/widen_apps.sql       (Edge, Blender, Google Docs, Universal)
+#    → run supabase/seed_from_xlsx.sql   (imported from dataas/*.xlsx)
 
 # 4. Fire it up 🔥
 npm run dev
@@ -145,11 +147,13 @@ leaaarrn-it/
 
 <div align="center">
 
-🪟 Windows &nbsp;•&nbsp; 🍎 macOS &nbsp;•&nbsp; 🐧 Linux &nbsp;•&nbsp; 🌐 Chrome &nbsp;•&nbsp; 🦊 Firefox
+✳️ Universal &nbsp;•&nbsp; 🪟 Windows &nbsp;•&nbsp; 🍎 macOS &nbsp;•&nbsp; 🐧 Linux
 <br/>
-💻 VS Code &nbsp;•&nbsp; 📊 Excel &nbsp;•&nbsp; 📝 Word &nbsp;•&nbsp; 📽️ PowerPoint &nbsp;•&nbsp; 🎨 Figma
+🌐 Chrome &nbsp;•&nbsp; 🦊 Firefox &nbsp;•&nbsp; 🧭 Edge
 <br/>
-🖼️ Photoshop &nbsp;•&nbsp; 🗒️ Notion &nbsp;•&nbsp; 💬 Slack &nbsp;•&nbsp; ✉️ Gmail
+💻 VS Code &nbsp;•&nbsp; 📊 Excel &nbsp;•&nbsp; 📝 Word &nbsp;•&nbsp; 📄 Google Docs &nbsp;•&nbsp; 📽️ PowerPoint
+<br/>
+🎨 Figma &nbsp;•&nbsp; 🖼️ Photoshop &nbsp;•&nbsp; 🧊 Blender &nbsp;•&nbsp; 🗒️ Notion &nbsp;•&nbsp; 💬 Slack &nbsp;•&nbsp; ✉️ Gmail
 
 </div>
 
