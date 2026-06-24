@@ -1,7 +1,7 @@
 <!-- ============================ HEADER BANNER ============================ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=220&section=header&text=leaaarrn-it&fontSize=70&fontAlignY=35&desc=Master%20every%20keyboard%20shortcut%20—%20across%20every%20OS,%20browser%20%26%20app&descAlignY=58&descSize=18&animation=fadeIn&fontColor=ffffff" alt="leaaarrn-it banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=220&section=header&text=leaaarrn-it&fontSize=70&fontAlignY=35&desc=Master%20every%20keyboard%20shortcut%20across%20every%20OS%2C%20browser%20and%20app&descAlignY=58&descSize=18&animation=fadeIn&fontColor=ffffff" alt="leaaarrn-it banner" />
 
 <!-- Typing animation -->
 <a href="https://github.com/Eshwar02/leaaarrn-it">
