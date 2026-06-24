@@ -12,3 +12,4 @@ next-env.d.ts
 /.agents
 /.mcp.json
 skills-lock.json
+/supabase/.temp

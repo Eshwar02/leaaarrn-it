@@ -25,6 +25,8 @@ export const APP_GROUPS: AppGroup[] = [
       { id: "windows", label: "Windows", icon: "🪟" },
       { id: "macos", label: "macOS", icon: "🍎" },
       { id: "linux", label: "Linux", icon: "🐧" },
+      { id: "gnome", label: "GNOME", icon: "🖥️" },
+      { id: "kde", label: "KDE Plasma", icon: "🖥️" },
     ],
   },
   {
@@ -42,6 +44,7 @@ export const APP_GROUPS: AppGroup[] = [
       { id: "excel", label: "Excel", icon: "📊" },
       { id: "word", label: "Word", icon: "📝" },
       { id: "googledocs", label: "Google Docs", icon: "📄" },
+      { id: "googlesheets", label: "Google Sheets", icon: "📈" },
       { id: "powerpoint", label: "PowerPoint", icon: "📽️" },
       { id: "figma", label: "Figma", icon: "🎨" },
       { id: "photoshop", label: "Photoshop", icon: "🖼️" },
@@ -49,6 +52,9 @@ export const APP_GROUPS: AppGroup[] = [
       { id: "notion", label: "Notion", icon: "🗒️" },
       { id: "slack", label: "Slack", icon: "💬" },
       { id: "gmail", label: "Gmail", icon: "✉️" },
+      { id: "bash", label: "Bash", icon: "⌨️" },
+      { id: "powershell", label: "PowerShell", icon: "⌨️" },
+      { id: "git", label: "Git", icon: "🔧" },
     ],
   },
 ];

@@ -18,6 +18,12 @@ export type AppId =
   | "edge"
   | "blender"
   | "googledocs"
+  | "googlesheets"
+  | "bash"
+  | "powershell"
+  | "git"
+  | "gnome"
+  | "kde"
   | "general";
 
 export type Category =
